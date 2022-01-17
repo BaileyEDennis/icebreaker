@@ -19,7 +19,7 @@ It has a button...
 
 ## Code Example
 ```javascript
-function getTopic(obj) {
+function getTopic() {
     const keys = Object.keys(questions);
     const output = Math.floor(Math.random()*keys.length);
     document.getElementById("prompt").innerHTML = questions[output];
