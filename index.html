@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Icebreakers</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" type="image/jpg" href="./favicon.png"/>
+</head>
+<body>
+
+<div class="main">
+    <h1 id="prompt">click to get a new icebreaker</h1>
+    <button id="getbtn" onclick="getTopic()">get a topic</button>
+</div>
+
+
+<script>
+const questions = {
+    0: "What are your favorite songs from your teenage years that you still rock out to when nobody else is listening?",
+    1: "What's the grossest food you ever had to eat to be polite?",
+    2: "What's the worst thing you ever did as a kid — and got away with?",
+    3: "What's the craziest fashion trend you ever rocked?",
+    4: "Do you have any crazy roommate stories?",
+    5: "What is the weirdest thing you've ever eaten for breakfast that is not a breakfast food?",
+    6: "What's the strangest family tradition in your family?",
+    7: "What did you name your first car?",
+    8: "What Disney/cartoon character were you inexplicably afraid of as a kid?",
+    9: "What was your first record, tape or CD that you ever owned?",
+    10: "Have you ever gotten super lost? What happened?",
+    11: "What was your first job? What did you like/dislike about it?",
+    12: "Who was the worst grade-school teacher you ever had?",
+    13: "What afterschool activity did you quit as a kid, and why?",
+    14: "What's the funniest thing that ever happened on your family vacation?",
+    15: "What's the funniest animal you've ever owned as a pet?",
+    16: "What's the worst haircut you ever had?",
+    17: "What's the best prank you've ever played on someone?",
+    18: "What's the worst job you've ever had?",
+    19: "What was your favorite Halloween costume you wore as a child?",
+    20: "Who is your craziest/most interesting relative?",
+    21: "What band would you be embarrassed to admit you listen to?",
+    22: "What’s the craziest thing on your bucket list?",
+    23: "What’s a weird fact you happen to know?",
+    24: "What is your real favorite movie, and what movie do you pretend is your favorite to sound cultured?",
+    25: "What’s your strangest talent?",
+    26: "What’s your best idea for a reality TV show?",
+    27: "What are two truths and a lie about you?",
+    28: "What’s a funny (appropriate) pick-up line that works for you?",
+    29: "What’s your favorite part of a county fair?",
+    30: "What show on Netflix did you binge watch embarrassingly fast?",
+    31: "What’s something about you that people would be surprised to know?",
+    32: "What is your favorite smell and why?",
+    33: "What completely safe animal are you inexplicably afraid of?",
+    34: "What food could you not live without?",
+    35: "What dance move are you secretly awesome at?",
+    36: "What commercial jingle gets stuck in your head all the time?",
+    38: "What sport did you try as a child and fail at?",
+    39: "What interesting skill do you want to learn?",
+    40: "What’s the most random thing in your purse/wallet?",
+    41: "What invention do you think will be popular in 20 years?",
+    42: "What blog or website are you embarrassed to admit you love?",
+    43: "What do you never leave the house without (can’t be your phone, keys or wallet)?",
+    44: "Who is your celebrity look-alike?",
+    45: "What do you pretend to hate but actually love?",
+    46: "What’s a nickname people actually call you?",
+    47: "If you could pick your nickname, what would people call you?",
+    48: "Have you ever lied about an interest/talent to impress someone? What happened next?",
+    49: "If you were famous, what would you be famous for?",
+    50: "If you had a boat, what would you name it?",
+    51: "If your best friend picked a tattoo for you to get, what would he/she pick?",
+    52: "If you could only eat at one restaurant forever, what restaurant would it be?",
+    53: "If you could have any celebrity be your best friend, which celebrity would you pick?",
+    54: "If all your clothes had to be one color forever, what color would you pick?",
+    55: "If you had to be an animal, which animal would you be?",
+    56: "If you had lots of money, what unnecessary thing would you splurge on (i.e. a private plane, concert tickets)?",
+    57: "If you could create one holiday, what would you create?",
+    58: "If you could be one superhero, which superhero would you be?",
+    59: "What game show would you be super awesome at?",
+    60: "If you had to endorse a brand, which brand would it be?",
+    61: "",
+    62: "",
+    63: "",
+    64: "",
+    65: "",
+    66: "",
+    67: "",
+    68: "",
+    69: "",
+    70: "",
+    71: "",
+    72: "",
+    73: "",
+    74: "",
+    75: "",
+    76: "",
+    77: "",
+    78: "",
+    79: "",
+    80: "",
+    81: "",
+    82: "",
+    83: "",
+    84: "",
+    85: "",
+    86: "",
+    87: "",
+    88: "",
+    89: "",
+    90: "",
+    91: "",
+    92: "",
+    93: "",
+    94: "",
+    95: "",
+    96: "",
+    97: "",
+    98: "",
+    99: "",
+    100: "",
+    101: "",
+    102: "",
+}
+
+function getTopic(obj) {
+    const keys = Object.keys(questions);
+    const output = Math.floor(Math.random()*keys.length);
+    document.getElementById("prompt").innerHTML = questions[output];
+  }
+  
+</script>
+
+
+</body>
+</html>
