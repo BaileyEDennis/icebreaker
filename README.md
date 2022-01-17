@@ -44,4 +44,4 @@ Sure, I take irony money. email me your venmo.
 Me.
 
 ## License
-Take it if you want it.
+Take it if you want it. I literally stole the backround art.
