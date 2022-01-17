@@ -6,6 +6,7 @@ Due to being on work-from-home near permanently due to Covid-19, our team has we
 
 ## Build Status
 Complete, no future features are planned for this project.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/691c6c3f-ff1a-4250-8814-d0d38cc3c274/deploy-status)](https://app.netlify.com/sites/sappyicebreakers/deploys)
 
 ## Screenshot
 ![ScreenShot](screenshot.PNG)
