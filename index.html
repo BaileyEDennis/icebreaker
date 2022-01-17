@@ -123,9 +123,9 @@ const questions = {
     102: "Pick any band to play at your funeral.",
 }
 
-function getTopic(obj) {
+function getTopic() {
     const keys = Object.keys(questions);
-    const output = Math.floor(Math.random()*keys.length);
+    const output = Math.floor(Math.random()*(keys.length -1 ));
     document.getElementById("prompt").innerHTML = questions[output];
   }
   
