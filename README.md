@@ -1,6 +1,8 @@
 ## icebreaker
 The project is a simple throw-together app I built on a weekend night while being snowed in. It is a self-contained app that displays a random icebreaker question from a list of just over 100 options and opens the door to fun conversations.
 
+You can visit the site [here](https://sappyicebreakers.netlify.app/).
+
 ## Motivation
 Due to being on work-from-home near permanently due to Covid-19, our team has weekly “water cooler” style breaks where no work topic is allowed to be discussed. The hypothesis is this: forcing organic interpersonal relationships a-la “mandatory fun” style has a negative net effect. By having a tool that generates silly conversation starters, and lets your teammates answer in their own way in their own time generates better outcomes. 
 
