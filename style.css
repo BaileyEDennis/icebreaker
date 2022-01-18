@@ -1,6 +1,9 @@
 html {
     font-size: 10px;
-    background: url('./antarctica.jpg');
+    background: url('./antarctica.jpg') no-repeat center center fixed;
+    -webkit-backgound-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
   }
   
